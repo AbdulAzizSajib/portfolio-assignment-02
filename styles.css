@@ -1,0 +1,106 @@
+/* Reset some default margin/padding */
+@import url('https://fonts.googleapis.com/css2?family=Epilogue&family=Poppins&display=swap');
+body, .box, img {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+/*.............................................................*/
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.border{
+    border-left: 3px solid red;
+    margin:0%;
+    padding-left: 5px;
+}
+
+#btn{
+    background-color: red;
+    color: #f0f0f0;
+    margin: 0;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+#btn:hover{
+    cursor: pointer;
+    color: black;
+    background-color: aquamarine
+    
+}
+
+
+.image {
+    flex: 1;
+    padding: 20px;
+}
+
+.image img {
+    width: 70%;
+    height: auto;
+}
+.content1{
+    flex: 1;
+    padding: 20px;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+/*...............................................................................*/
+.box-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+   
+}
+
+.box {
+    flex: 1;
+    margin: 2%;
+    padding: 20px;
+    
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align:ju
+}
+
+.box img {
+    max-width: 40%;
+    height: auto;
+
+    /*float:left;*/
+}
+.box.mission{
+    background-color: aquamarine;
+
+}
+.box.vision{
+    background-color: cornflowerblue;
+}
+.box.goals{
+    background-color: plum;
+}
